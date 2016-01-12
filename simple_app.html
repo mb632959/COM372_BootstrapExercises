@@ -6,17 +6,18 @@
     <!-- The viewport tag sets up the browser for mobile devices-->
     <title>Dashboard | Important Information, For Important People</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- A stylesheet for our style rules, which will over-ride bootstrap -->
-    <link href="css/style.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <div>
+  <div class="container-fluid">
+    <div class="row">
       <header>
         <h1>Dashboard <small>Important Information For Important People</small></h1>
       </header>
-      <div>
-        <div>
+      <div class="row">
+        <div class="col-sm-4">
           <h2>Very Important Sidebar</h2>
           <ul>
             <li><a href="simple_app.html">Last Month</a></li>
@@ -26,52 +27,65 @@
           <h2>Do not press the button below! No one knows what will happen!</h2>
           <a href="http://vincentadultman.com/">Delete History</a>
         </div>
-        <div>
+
+        <div class="col-sm-8">
           <h2>Business Data. For Business.</h2>
           <h3>Graphs</h3>
-          <div>
-            <div>
+          <div class="row">
+            <div class="col-sm-4">
               <img src="images/graph1.jpg" alt="graph 1">
               I like business... transactions. Business wise, this all seems like appropriate business. I went to the stock market today. I did a business.
             </div>
-            <div>
+
+            <div class="col-sm-4">
               <img src="images/graph2.png" alt="graph 2">
               I like business... transactions. Business wise, this all seems like appropriate business. I went to the stock market today. I did a business.
             </div>
-            <div>
+
+
+            <div class="col-sm-4">
               <img src="images/graph3.gif" alt="graph 3">
               I like business... transactions. Business wise, this all seems like appropriate business. I went to the stock market today. I did a business.
             </div>
           </div>
+
+
           <h3>Charts</h3>
-          <div>
-            <div>
+          <div class="row">
+            <div class="col-sm-4">
               <img src="images/chart1.png" alt="chart 1">
               I like business... transactions. Business wise, this all seems like appropriate business. I went to the stock market today. I did a business.
             </div>
-            <div>
+
+
+            <div class="col-sm-4">
               <img src="images/chart2.png" alt="chart 1">
               I like business... transactions. Business wise, this all seems like appropriate business. I went to the stock market today. I did a business.
             </div>
-            <div>
+
+
+            <div class="col-sm-4">
               <img src="images/chart3.gif" alt="chart 1">
               I like business... transactions. Business wise, this all seems like appropriate business. I went to the stock market today. I did a business.
             </div>
           </div>
+
           <h3>Metrics</h3>
-          <div>
-            <div>
+          <div class="row">
+            <div class="col-sm-4">
               I like business... transactions. Business wise, this all seems like appropriate business. I went to the stock market today. I did a business.
             </div>
-            <div>
+            <div class="col-sm-4">
               I like business... transactions. Business wise, this all seems like appropriate business. I went to the stock market today. I did a business.
             </div>
-            <div>
+            <div class="col-sm-4">
               I like business... transactions. Business wise, this all seems like appropriate business. I went to the stock market today. I did a business.
             </div>
           </div>
         </div>
       </div>
     </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
   </body>
 </html>
